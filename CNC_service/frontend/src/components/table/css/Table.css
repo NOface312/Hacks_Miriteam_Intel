@@ -1,0 +1,44 @@
+.table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.button {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    background: #616161;
+  } 
+  .button:hover { background: #3f3f3f; }
+  .button:active { background: rgb(0, 0, 0); }
+.head {
+    background-color: hsl(0, 0%, 80%);
+    color: red;
+    padding: 10px;
+    text-align: left;
+}
+
+.react-bs-table-bordered {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+
+.react-bs-table .table-bordered > thead > tr > th,
+.react-bs-table .table-bordered > thead > tr > td {
+    border-bottom-width: 5px;
+  }
+.react-bs-table .table-bordered > tbody > tr > th,
+  .react-bs-table .table-bordered > tbody > tr > td {
+    border-top-width: 5px;
+  }
+  
+  .react-bs-table .table-bordered > tfoot > tr > th,
+  .react-bs-table .table-bordered > tfoot > tr > td {
+    border-bottom-width: 3px;
+  }

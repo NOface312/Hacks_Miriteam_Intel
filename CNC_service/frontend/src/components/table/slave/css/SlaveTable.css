@@ -1,0 +1,75 @@
+.num {
+    background-color: #ccc;
+    color: red;
+    padding: 10px;
+    text-align: left;
+}
+.date {
+    background-color: #ccc;
+    color: blue;
+    padding: 10px;
+    text-align: left;
+}
+.boss {
+    background-color: #ccc;
+    color: blue;
+    padding: 10px;
+    text-align: left;
+}
+.text {
+    background-color: #ccc;
+    color: blue;
+    padding: 10px;
+    text-align: left;
+}
+.CNC {
+    background-color: #ccc;
+    color: blue;
+    padding: 10px;
+    text-align: left;
+}
+
+.status {
+    background-color: #ccc;
+    color: blue;
+    padding: 10px;
+    text-align: left;
+}
+.react-bs-table-bordered {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+.react-bs-table .table-bordered > thead > tr > th,
+.react-bs-table .table-bordered > thead > tr > td {
+    border-bottom-width: 5px;
+  }
+.react-bs-table .table-bordered > tbody > tr > th,
+  .react-bs-table .table-bordered > tbody > tr > td {
+    border-top-width: 5px;
+  }
+  
+  .react-bs-table .table-bordered > tfoot > tr > th,
+  .react-bs-table .table-bordered > tfoot > tr > td {
+    border-bottom-width: 3px;
+  }
+.button {
+    background-color: #ccc;
+    color: blue;
+    padding: 10px;
+    text-align: left;
+}
+.buttonn {
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        padding: .8em 1em calc(.8em + 3px);
+        border-radius: 3px;
+        background: rgb(64,199,129);
+        box-shadow: 0 -3px rgb(53,167,110) inset;
+        transition: 0.2s;
+}
+.buttonn:hover { background: rgb(53, 167, 110); }
+.buttonn:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}

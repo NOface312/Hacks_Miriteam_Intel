@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'frontend/style.css' %}">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'frontend/public/main.js' %}" defer></script>
+    <title>CNC_service</title>
+</head>
+
+<body>
+    <div id="root" class="content">
+        {% csrf_token %}
+        This will be the base template.
+    </div>
+</body>
+
+</html>
